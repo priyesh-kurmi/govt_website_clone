@@ -1,0 +1,352 @@
+@{
+    ViewData["Title"] = "National Portal of India";
+}
+
+<!-- Main Banner Slider -->
+<div class="main-banner">
+    <div class="banner-slider">
+        <div class="slides-container">
+            <div class="slide active">
+                <img src="/images/sanchar-sathi-app.jpg" alt="Sanchar Saathi Mobile App" class="img-fluid w-100">
+            </div>
+            <div class="slide">
+                <img src="/images/civildefencewarriors.jpg" alt="Civil Defence Warriors" class="img-fluid w-100">
+            </div>
+            <div class="slide">
+                <img src="/images/flYHd7E7b2W2XRtP.jpeg" alt="Government Initiative" class="img-fluid w-100">
+            </div>
+            <div class="slide">
+                <img src="/images/kissanCC.jpg" alt="Kissan Credit Card" class="img-fluid w-100">
+            </div>
+            <div class="slide">
+                <img src="/images/national-blockchain-framework.jpg" alt="National Blockchain Framework" class="img-fluid w-100">
+            </div>
+            <div class="slide">
+                <img src="/images/scw_0.jpg" alt="Senior Citizens Welfare" class="img-fluid w-100">
+            </div>
+            <!-- Duplicate first slide for seamless infinite loop -->
+            <div class="slide">
+                <img src="/images/sanchar-sathi-app.jpg" alt="Sanchar Saathi Mobile App" class="img-fluid w-100">
+            </div>
+        </div>
+        
+        <!-- Navigation Arrows -->
+        <div class="slider-navigation">
+            <button class="nav-btn prev-btn" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="nav-btn pause-btn" id="pauseBtn">
+                <i class="fas fa-pause"></i>
+            </button>
+            <button class="nav-btn next-btn" id="nextBtn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Main Content Grid -->
+<div class="content-section">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- News Highlights -->
+            <div class="col-md-4">
+                <div class="content-column">
+                    <h3 class="section-title">News Highlights</h3>
+                    <div class="section-underline"></div>
+                    
+                    <div class="news-header">
+                        <span class="news-tag">News & Press Releases</span>
+                    </div>
+                    
+                    <div class="news-list">
+                        <div class="news-item">
+                            <i class="fas fa-chevron-right news-icon"></i>
+                            <span>Shivraj Singh reiterates PM Modi's call, urges citizens to use...</span>
+                        </div>
+                        
+                        <div class="news-item">
+                            <i class="fas fa-chevron-right news-icon"></i>
+                            <span>PM Modi lauds India's first green hydrogen plant in port sector...</span>
+                        </div>
+                        
+                        <div class="news-item">
+                            <i class="fas fa-chevron-right news-icon"></i>
+                            <span>Russian and Chinese navies carry out artillery and anti...</span>
+                        </div>
+                        
+                        <div class="news-item">
+                            <i class="fas fa-chevron-right news-icon"></i>
+                            <span>UK threatens jail for people smugglers who advertise on social...</span>
+                        </div>
+                        
+                        <div class="news-item">
+                            <i class="fas fa-chevron-right news-icon"></i>
+                            <span>Awareness session on National Means-cum-Merit Scholarship...</span>
+                        </div>
+                        
+                        <div class="news-item">
+                            <i class="fas fa-chevron-right news-icon"></i>
+                            <span>IMD predicts heavy rainfall across northeast, eastern India;...</span>
+                        </div>
+                        
+                        <div class="news-item">
+                            <i class="fas fa-chevron-right news-icon"></i>
+                            <span>Jan Dhan accounts cross 55 crore mark; PM Nirmala Sitharaman...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="text-end mt-3">
+                        <button class="more-btn">more news...</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Most Requested Information & Forms -->
+            <div class="col-md-4">
+                <div class="content-column">
+                    <h3 class="section-title">Most Requested Information & Forms</h3>
+                    <div class="section-underline"></div>
+                    
+                    <div class="info-header">
+                        <span class="info-tag">Information</span>
+                        <button class="info-dropdown-btn">-</button>
+                    </div>
+                    
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="fas fa-chevron-right info-icon"></i>
+                            <span>Tribal Welfare Department of Andaman and Nicobar...</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-chevron-right info-icon"></i>
+                            <span>Website of ENVIS Centre-Central Building Research Institute...</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-chevron-right info-icon"></i>
+                            <span>Smart Cities Mission Portal by Ministry of Urban Development</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-chevron-right info-icon"></i>
+                            <span>Frequently asked questions on SCs and STs welfare</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-chevron-right info-icon"></i>
+                            <span>Website of Indian Institute of Astrophysics</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-chevron-right info-icon"></i>
+                            <span>Website of High Court of Judicature at Allahabad</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-chevron-right info-icon"></i>
+                            <span>Information on Child Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Activities & Initiatives -->
+            <div class="col-md-4">
+                <div class="content-column">
+                    <h3 class="section-title">Activities & Initiatives</h3>
+                    <div class="section-underline"></div>
+                    
+                    <!-- International Year Section -->
+                    <div class="international-year-section">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="year-badge">
+                                <span class="year-text">2025</span>
+                            </div>
+                            <div class="ms-3">
+                                <h6 class="year-title">International Year of Cooperatives</h6>
+                                <p class="year-subtitle">Cooperatives Build a Better World</p>
+                            </div>
+                        </div>
+                        
+                        <p class="year-description">On this occasion, various programs & discussions related to cooperatives are being organized throughout the year</p>
+                    </div>
+                    
+                    <!-- Health ID Section -->
+                    <div class="health-id-section">
+                        <div class="health-id-card">
+                            <img src="data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Crect width='200' height='120' fill='%234285f4' rx='10'/%3E%3Ctext x='100' y='40' text-anchor='middle' fill='white' font-size='16' font-weight='bold'%3EHealth ID%3C/text%3E%3Ctext x='100' y='60' text-anchor='middle' fill='white' font-size='12'%3EKey to your Digital%3C/text%3E%3Ctext x='100' y='80' text-anchor='middle' fill='white' font-size='12'%3EHealthcare Journey%3C/text%3E%3Crect x='150' y='90' width='40' height='20' fill='white' rx='3'/%3E%3Ctext x='170' y='105' text-anchor='middle' fill='%234285f4' font-size='8'%3EQR%3C/text%3E%3C/svg%3E" alt="Health ID Card" class="health-card-img">
+                        </div>
+                        <p class="health-id-text">Health ID - Key to your Digital Healthcare Journey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Be Involved & Spotlight Section -->
+<div class="be-involved-section">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Be Involved Column -->
+            <div class="col-md-4">
+                <div class="be-involved-column">
+                    <h3 class="be-involved-title">Be involved</h3>
+                    <p class="be-involved-subtitle">collaborate, share and influence government policy</p>
+                    
+                    <!-- Action Items -->
+                    <div class="involvement-items">
+                        <div class="involvement-item do-item">
+                            <span class="item-label do-label">DO</span>
+                            <span class="item-text">Tiranga Challenge - Celebrate the Spirit of India</span>
+                        </div>
+                        
+                        <div class="involvement-item discuss-item">
+                            <span class="item-label discuss-label">Discuss</span>
+                            <span class="item-text">Let your ideas and suggestions be a part of PM Modi's Independence Day Speech 20...</span>
+                        </div>
+                        
+                        <div class="involvement-item poll-item">
+                            <span class="item-label poll-label">Poll</span>
+                            <span class="item-text">Poll on Homoeopathy - Harmony In Health</span>
+                        </div>
+                        
+                        <div class="involvement-item talk-item">
+                            <span class="item-label talk-label">Talk</span>
+                            <span class="item-text">Tune in to 124th Episode of Mann Ki Baat by Prime Minister Narendra Modi on 27th...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="view-details-section">
+                        <button class="view-details-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Spotlight Column -->
+            <div class="col-md-4">
+                <div class="spotlight-column">
+                    <h3 class="spotlight-title">Spotlight</h3>
+                    
+                    <div class="spotlight-content">
+                        <div class="spotlight-item">
+                            <span>Senior Citizens Welfare Portal</span>
+                        </div>
+                        
+                        <div class="spotlight-item">
+                            <span>Pradhan Mantri Uchchatar Shiksha Abhiyan (PM-USHA)</span>
+                        </div>
+                        
+                        <div class="spotlight-link">
+                            <a href="#" class="view-all-link">View all</a>
+                        </div>
+                    </div>
+                    
+                    <div class="transparency-section">
+                        <h4 class="transparency-title">Transparency</h4>
+                        <div class="transparency-links">
+                            <a href="#" class="transparency-link">Right to Information</a>
+                            <span class="separator">|</span>
+                            <a href="#" class="transparency-link">Open Data</a>
+                            <span class="separator">|</span>
+                            <a href="#" class="transparency-link">Public Grievance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact & Social Column -->
+            <div class="col-md-4">
+                <div class="contact-social-column">
+                    <div class="social-share">
+                        <h4 class="feedback-title">Feedback</h4>
+                        <h4 class="contact-title">Contact us</h4>
+                        <div class="share-section">
+                            <i class="fas fa-share-alt share-icon"></i>
+                            <span class="share-text">Share this page</span>
+                        </div>
+                        
+                        <div class="social-links">
+                            <span class="facebook-text">Facebook</span>
+                            <span class="twitter-text">Twitter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div class="services-section">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <!-- Integrated Government Online Directory -->
+            <div class="col-md-2">
+                <div class="service-item">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon teal-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    <h5 class="service-title">Integrated Government Online Directory (iGOD)</h5>
+                    <p class="service-description">A one-point source to access all Indian Government Websites at all levels and from all sectors.</p>
+                </div>
+            </div>
+            
+            <!-- Mobile App Directory -->
+            <div class="col-md-2">
+                <div class="service-item">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon orange-icon">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                    </div>
+                    <h5 class="service-title">Mobile App Directory</h5>
+                    <p class="service-description">Mobile Seva Appstore: National Mobile Governance Initiative by Dept. of Electronics & IT</p>
+                </div>
+            </div>
+            
+            <!-- Calendar -->
+            <div class="col-md-2">
+                <div class="service-item">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon purple-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                    <h5 class="service-title">Calendar</h5>
+                    <p class="service-description">View holidays as per the circular issued by the Ministry of Personnel, Public Grievances and Pensions</p>
+                </div>
+            </div>
+            
+            <!-- MyGov -->
+            <div class="col-md-2">
+                <div class="service-item">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon red-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <h5 class="service-title">MyGov</h5>
+                    <p class="service-description">Be an active partner in nation-building. Participate in Groups, Tasks, Discussions, Polls, Blogs and Talks.</p>
+                </div>
+            </div>
+            
+            <!-- Webcast Services -->
+            <div class="col-md-2">
+                <div class="service-item">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon blue-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <h5 class="service-title">Webcast Services</h5>
+                    <p class="service-description">View live and on demand Webcast of important Government events, activities and Live TV Channels</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

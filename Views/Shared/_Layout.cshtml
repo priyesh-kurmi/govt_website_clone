@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - National Portal of India</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/32px-Flag_of_India.svg.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Top Header Bar -->
+    <div class="top-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="facebook-link me-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook" style="width: 16px; height: 16px;">
+                        </a>
+                        <a href="#" class="twitter-link me-3">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="X" style="width: 16px; height: 16px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="text-size-controls">
+                        <span class="skip-link me-3">Skip to main content</span>
+                        <a href="#" class="text-size-btn">-A</a>
+                        <a href="#" class="text-size-btn">A</a>
+                        <a href="#" class="text-size-btn">+A</a>
+                        <a href="#" class="text-size-btn">A</a>
+                        <a href="#" class="text-size-btn hindi-btn">हि</a>
+                        <span class="separator">|</span>
+                        <a href="#" class="lang-btn">हिन्दी</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo-section d-flex align-items-center">
+                        <img src="/images/logo_1.png" alt="Government of India Emblem" class="emblem-img">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="header-nav d-flex justify-content-end">
+                        <div class="nav-circle-item">
+                            <div class="nav-circle">
+                                <i class="fas fa-list"></i>
+                            </div>
+                            <span>TOPICS</span>
+                        </div>
+                        <div class="nav-circle-item">
+                            <div class="nav-circle">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <span>SERVICES</span>
+                        </div>
+                        <div class="nav-circle-item">
+                            <div class="nav-circle">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <span>MY GOVERNMENT</span>
+                        </div>
+                        <div class="nav-circle-item">
+                            <div class="nav-circle">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <span>PEOPLE GROUPS</span>
+                        </div>
+                        <div class="nav-circle-item">
+                            <div class="nav-circle">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <span>INDIA AT A GLANCE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <div class="search-section">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div class="search-container">
+                        <div class="input-group">
+                            <input type="text" class="form-control search-input" placeholder="Search - Keyword, Phrase">
+                            <button class="btn search-btn" type="button">Search</button>
+                            <button class="btn advanced-search-btn dropdown-toggle" type="button">Advanced Search ▼</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="most-searched-section">
+                        <h6 class="most-searched-title">MOST SEARCHED</h6>
+                        <div class="most-searched-links">
+                            <a href="#">Birth Certificate</a> |
+                            <a href="#">Driving Licence</a> |
+                            <a href="#">Pan card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <main class="main-content">
+        @RenderBody()
+    </main>
+
+    <!-- Footer Links Section -->
+    <section class="footer-links-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-links-content">
+                        <a href="#">About us</a>
+                        <span class="separator">|</span>
+                        <a href="#">Contact us</a>
+                        <span class="separator">|</span>
+                        <a href="#">Feedback</a>
+                        <span class="separator">|</span>
+                        <a href="#">Visitor Summary</a>
+                        <span class="separator">|</span>
+                        <a href="#">Help</a>
+                        <span class="separator">|</span>
+                        <a href="#">Link to Us</a>
+                        <span class="separator">|</span>
+                        <a href="#">Newsletter</a>
+                        <span class="separator">|</span>
+                        <a href="#">Tell a Friend</a>
+                        <span class="separator">|</span>
+                        <a href="#">Website Policy</a>
+                        <span class="separator">|</span>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Information Related To Column -->
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Information Related To</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="#">Agriculture</a></li>
+                        <li><a href="#">Commerce</a></li>
+                        <li><a href="#">Defence</a></li>
+                        <li><a href="#">Environment & Forest</a></li>
+                        <li><a href="#">Food & Public Distribution</a></li>
+                        <li><a href="#">Governance & Administration</a></li>
+                        <li><a href="#">Housing</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Information & Broadcasting</a></li>
+                        <li><a href="#">Law & Justice</a></li>
+                        <li><a href="#">Rural</a></li>
+                        <li><a href="#">Social Development</a></li>
+                        <li><a href="#">Travel & Tourism</a></li>
+                    </ul>
+                </div>
+
+                <!-- Second Column -->
+                <div class="col-md-3">
+                    <h5 class="footer-heading">&nbsp;</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="#">Art & Culture</a></li>
+                        <li><a href="#">Communication</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Finance & Taxes</a></li>
+                        <li><a href="#">Foreign Affairs</a></li>
+                        <li><a href="#">Health & Family Welfare</a></li>
+                        <li><a href="#">Home Affairs & Enforcement</a></li>
+                        <li><a href="#">Infrastructure</a></li>
+                        <li><a href="#">Labour & Employment</a></li>
+                        <li><a href="#">Power & Energy</a></li>
+                        <li><a href="#">Science & Technology</a></li>
+                        <li><a href="#">Transport</a></li>
+                        <li><a href="#">Youth & Sports</a></li>
+                    </ul>
+                </div>
+
+                <!-- About the Government Column -->
+                <div class="col-md-3">
+                    <h5 class="footer-heading">About the Government</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="#">Constitution of India</a></li>
+                        <li><a href="#">Government Directory</a></li>
+                        <li><a href="#">Indian Parliament</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Who's Who</a></li>
+                        <li><a href="#">President of India</a></li>
+                        <li><a href="#">Vice-President of India</a></li>
+                        <li><a href="#">Prime Minister of India</a></li>
+                        <li><a href="#">Cabinet Ministers</a></li>
+                        <li><a href="#">Chiefs of Armed Forces</a></li>
+                        <li><a href="#">Members of Parliament</a></li>
+                    </ul>
+                </div>
+
+                <!-- Logos and Additional Links Column -->
+                <div class="col-md-3">
+                    <div class="footer-logos">
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <img src="~/images/img-ftr-open-data-portal.png" alt="Open Government Data" class="footer-logo-image">
+                        </div>
+                        <div style="display: inline-block;">
+                            <img src="~/images/pib.png" alt="Press Information Bureau" class="footer-logo-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer Section -->
+            <div class="row footer-bottom">
+                <div class="col-md-12">
+                    <div class="footer-bottom-content">
+                        <div class="footer-nic-info">
+                            <span class="nic-badge">NIC</span>
+                            <span class="footer-bottom-text">This Portal is a Mission Mode Project under the National E-Governance Plan, and is owned, designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India. The content linked through NPI is owned and maintained by the respective Ministries/Departments.</span>
+                        </div>
+                        <div class="footer-update-info">
+                            <span>Last reviewed and updated on 03 Aug, 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
