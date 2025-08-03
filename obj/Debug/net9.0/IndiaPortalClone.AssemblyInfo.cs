@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndiaPortalClone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff91dd8bd64d44598f2951f50c19256b57b52732")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ef6ed65bc686802e9bde8b7806b4705470a263b")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndiaPortalClone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndiaPortalClone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,3 +30,4 @@ C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Release\net9.0
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Release\net9.0\IndiaPortalClone.pdb
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Release\net9.0\IndiaPortalClone.genruntimeconfig.cache
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Release\net9.0\ref\IndiaPortalClone.dll
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Release\net9.0\web.config

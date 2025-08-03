@@ -1,10 +1,11 @@
-C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.exe
-C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.dll
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\web.config
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\appsettings.Production.json
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.staticwebassets.runtime.json
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.staticwebassets.endpoints.json
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.exe
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.deps.json
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.runtimeconfig.json
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.dll
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\IndiaPortalClone.pdb
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\IndiaPortalClone.GeneratedMSBuildEditorConfig.editorconfig
