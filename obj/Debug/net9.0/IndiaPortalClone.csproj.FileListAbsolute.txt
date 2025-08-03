@@ -28,3 +28,5 @@ C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\I
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\ref\IndiaPortalClone.dll
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\compressed\ufginw12ip-xlb70aj12o.gz
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\compressed\hmiyy8fkjk-49l6vammej.gz
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\appsettings.Production.json
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\IndiaPortalClone.sourcelink.json
