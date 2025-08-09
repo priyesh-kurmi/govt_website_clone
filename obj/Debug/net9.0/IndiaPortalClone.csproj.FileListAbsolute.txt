@@ -31,3 +31,8 @@ C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\r
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\IndiaPortalClone.pdb
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\IndiaPortalClone.genruntimeconfig.cache
 C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\obj\Debug\net9.0\ref\IndiaPortalClone.dll
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\publish\web.config
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\publish\appsettings.Production.json
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\publish\IndiaPortalClone.deps.json
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\publish\IndiaPortalClone.runtimeconfig.json
+C:\Users\kpriy\OneDrive\Desktop\.NET project\IndiaPortalClone\bin\Debug\net9.0\publish\IndiaPortalClone.staticwebassets.endpoints.json
